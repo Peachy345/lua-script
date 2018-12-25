@@ -15,162 +15,162 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Antario\Hooks.cpp">
+    <ClCompile Include="csgo-hacks\DLLMain.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Antario\DLLMain.cpp">
+    <ClCompile Include="csgo-hacks\Hooks.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Antario\Utils\NetvarManager.cpp">
+    <ClCompile Include="csgo-hacks\Menu.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Antario\Utils\Interfaces.cpp">
+    <ClCompile Include="csgo-hacks\Settings.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Antario\Utils\DrawManager.cpp">
+    <ClCompile Include="csgo-hacks\cui\GUI.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Antario\Features\EnginePrediction.cpp">
+    <ClCompile Include="csgo-hacks\hacks\EnginePrediction.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Antario\Utils\D3DFont.cpp">
+    <ClCompile Include="csgo-hacks\hacks\ESP.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Antario\Menu.cpp">
+    <ClCompile Include="csgo-hacks\c-utils\D3DFont.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Antario\Features\ESP.cpp">
+    <ClCompile Include="csgo-hacks\c-utils\DrawManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Antario\Utils\GlobalVars.cpp">
+    <ClCompile Include="csgo-hacks\c-utils\GlobalVars.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Antario\Settings.cpp">
+    <ClCompile Include="csgo-hacks\c-utils\Interfaces.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Antario\GUI\GUI.cpp">
+    <ClCompile Include="csgo-hacks\c-utils\NetvarManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Antario\Hooks.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Antario\SDK\IClientMode.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Antario\SDK\Vector.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Antario\SDK\CHandle.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Antario\SDK\CEntity.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Antario\SDK\IClientRenderable.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Antario\SDK\IClientNetworkable.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Antario\SDK\IClientUnknown.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Antario\SDK\IClientEntity.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Antario\SDK\IClientThinkable.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Antario\SDK\VMatrix.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Antario\SDK\Recv.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Antario\Utils\NetvarManager.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Antario\SDK\IBaseClientDll.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Antario\SDK\ClientClass.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Antario\SDK\Definitions.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Antario\SDK\CGlobalVarsBase.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Antario\Utils\Utils.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Antario\SDK\CInput.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Antario\Utils\Interfaces.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Antario\SDK\IClientEntityList.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Antario\SDK\IVEngineClient.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Antario\SDK\PlayerInfo.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Antario\SDK\CPrediction.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Antario\Features\Misc.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Antario\Settings.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Antario\Utils\DrawManager.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Antario\Features\EnginePrediction.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Antario\Utils\D3DFont.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Antario\SDK\IGameEvent.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Antario\EventListener.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Antario\SDK\KeyValues.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Antario\Menu.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Antario\Features\ESP.h">
+    <ClInclude Include="csgo-hacks\EventListener.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Antario\Utils\GlobalVars.h">
+    <ClInclude Include="csgo-hacks\Hooks.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Antario\Features\Features.h">
+    <ClInclude Include="csgo-hacks\Settings.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Antario\Utils\SPoint.h">
+    <ClInclude Include="csgo-hacks\cui\GUI.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Antario\Utils\SRect.h">
+    <ClInclude Include="csgo-hacks\hacks\EnginePrediction.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Antario\Utils\Color.h">
+    <ClInclude Include="csgo-hacks\hacks\ESP.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Antario\GUI\GUI.h">
+    <ClInclude Include="csgo-hacks\hacks\Features.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgo-hacks\hacks\Misc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgo-hacks\c-sdk\CEntity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgo-hacks\c-sdk\CGlobalVarsBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgo-hacks\c-sdk\CHandle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgo-hacks\c-sdk\CInput.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgo-hacks\c-sdk\ClientClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgo-hacks\c-sdk\CPrediction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgo-hacks\c-sdk\Definitions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgo-hacks\c-sdk\IBaseClientDll.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgo-hacks\c-sdk\IClientEntity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgo-hacks\c-sdk\IClientEntityList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgo-hacks\c-sdk\IClientMode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgo-hacks\c-sdk\IClientNetworkable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgo-hacks\c-sdk\IClientRenderable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgo-hacks\c-sdk\IClientThinkable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgo-hacks\c-sdk\IClientUnknown.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgo-hacks\c-sdk\IGameEvent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgo-hacks\c-sdk\IVEngineClient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgo-hacks\c-sdk\KeyValues.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgo-hacks\c-sdk\PlayerInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgo-hacks\c-sdk\Recv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgo-hacks\c-sdk\Vector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgo-hacks\c-sdk\VMatrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgo-hacks\c-utils\Color.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgo-hacks\c-utils\D3DFont.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgo-hacks\c-utils\DrawManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgo-hacks\c-utils\GlobalVars.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgo-hacks\c-utils\Interfaces.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgo-hacks\c-utils\NetvarManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgo-hacks\c-utils\SPoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgo-hacks\c-utils\SRect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgo-hacks\c-utils\Utils.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

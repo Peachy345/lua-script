@@ -1,0 +1,14 @@
+﻿  GUI.cpp
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.13.26128\include\execution(20): error C4996: '_Experimental_parallel_algorithms': warning STL4019: Parallel algorithms support is experimental in this release of Visual C++. Object files and static libraries that include <execution> may need to be rebuilt to link with a future update of Visual C++, and programs using <execution> may not run on Windows XP. This warning will be removed when parallel algorithms support is completed in a future update. You can define _SILENCE_PARALLEL_ALGORITHMS_EXPERIMENTAL_WARNING to acknowledge that you have received this warning.
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.13.26128\include\execution(19): note: see declaration of '_Experimental_parallel_algorithms'
+c:\users\chase\desktop\csgo-cheat\csgo-hacks\cui\gui.cpp(1171): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  c:\users\chase\desktop\csgo-cheat\csgo-hacks\cui\gui.cpp(1169): note: while compiling class template member function 'void ui::Slider<float>::Initialize(void)'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.13.26128\include\type_traits(519): note: see reference to class template instantiation 'ui::Slider<float>' being compiled
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.13.26128\include\memory(1284): note: see reference to class template instantiation 'std::is_convertible<_Yty *,_Ty *>' being compiled
+          with
+          [
+              _Yty=ui::Slider<float>,
+              _Ty=ui::UIObject
+          ]
+  c:\users\chase\desktop\csgo-cheat\csgo-hacks\cui\gui.cpp(165): note: see reference to class template instantiation 'std::_SP_pointer_compatible<ui::Slider<float>,ui::UIObject>' being compiled
+  DLLMain.cpp

@@ -15,7 +15,8 @@
     <ProjectGuid>{1B8103F7-F793-47B0-9FBE-44EC66BC319D}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>Antario</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <ProjectName>csgo-cheat</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -92,60 +93,60 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Antario\Features\EnginePrediction.cpp" />
-    <ClCompile Include="Antario\GUI\GUI.cpp" />
-    <ClCompile Include="Antario\Hooks.cpp" />
-    <ClCompile Include="Antario\DLLMain.cpp" />
-    <ClCompile Include="Antario\Menu.cpp" />
-    <ClCompile Include="Antario\Settings.cpp" />
-    <ClCompile Include="Antario\Utils\D3DFont.cpp" />
-    <ClCompile Include="Antario\Utils\DrawManager.cpp" />
-    <ClCompile Include="Antario\Utils\GlobalVars.cpp" />
-    <ClCompile Include="Antario\Utils\Interfaces.cpp" />
-    <ClCompile Include="Antario\Utils\NetvarManager.cpp" />
-    <ClCompile Include="Antario\Features\ESP.cpp" />
+    <ClCompile Include="csgo-hacks\hacks\EnginePrediction.cpp" />
+    <ClCompile Include="csgo-hacks\cui\GUI.cpp" />
+    <ClCompile Include="csgo-hacks\Hooks.cpp" />
+    <ClCompile Include="csgo-hacks\DLLMain.cpp" />
+    <ClCompile Include="csgo-hacks\Menu.cpp" />
+    <ClCompile Include="csgo-hacks\Settings.cpp" />
+    <ClCompile Include="csgo-hacks\c-utils\D3DFont.cpp" />
+    <ClCompile Include="csgo-hacks\c-utils\DrawManager.cpp" />
+    <ClCompile Include="csgo-hacks\c-utils\GlobalVars.cpp" />
+    <ClCompile Include="csgo-hacks\c-utils\Interfaces.cpp" />
+    <ClCompile Include="csgo-hacks\c-utils\NetvarManager.cpp" />
+    <ClCompile Include="csgo-hacks\hacks\ESP.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Antario\Features\EnginePrediction.h" />
-    <ClInclude Include="Antario\Features\Features.h" />
-    <ClInclude Include="Antario\Features\Misc.h" />
-    <ClInclude Include="Antario\GUI\GUI.h" />
-    <ClInclude Include="Antario\Hooks.h" />
+    <ClInclude Include="csgo-hacks\hacks\EnginePrediction.h" />
+    <ClInclude Include="csgo-hacks\hacks\Features.h" />
+    <ClInclude Include="csgo-hacks\hacks\Misc.h" />
+    <ClInclude Include="csgo-hacks\cui\GUI.h" />
+    <ClInclude Include="csgo-hacks\Hooks.h" />
     <ClInclude Include="Antario\Menu.h" />
-    <ClInclude Include="Antario\SDK\CGlobalVarsBase.h" />
-    <ClInclude Include="Antario\SDK\CHandle.h" />
-    <ClInclude Include="Antario\SDK\CEntity.h" />
-    <ClInclude Include="Antario\SDK\CInput.h" />
-    <ClInclude Include="Antario\SDK\ClientClass.h" />
-    <ClInclude Include="Antario\Utils\Color.h" />
-    <ClInclude Include="Antario\SDK\CPrediction.h" />
-    <ClInclude Include="Antario\SDK\Definitions.h" />
-    <ClInclude Include="Antario\SDK\IBaseClientDll.h" />
-    <ClInclude Include="Antario\SDK\IClientEntity.h" />
-    <ClInclude Include="Antario\SDK\IClientEntityList.h" />
-    <ClInclude Include="Antario\SDK\IClientMode.h" />
-    <ClInclude Include="Antario\SDK\IClientNetworkable.h" />
-    <ClInclude Include="Antario\SDK\IClientRenderable.h" />
-    <ClInclude Include="Antario\SDK\IClientThinkable.h" />
-    <ClInclude Include="Antario\SDK\IClientUnknown.h" />
-    <ClInclude Include="Antario\SDK\IGameEvent.h" />
-    <ClInclude Include="Antario\SDK\IVEngineClient.h" />
-    <ClInclude Include="Antario\SDK\KeyValues.h" />
-    <ClInclude Include="Antario\SDK\PlayerInfo.h" />
-    <ClInclude Include="Antario\Settings.h" />
-    <ClInclude Include="Antario\Utils\D3DFont.h" />
-    <ClInclude Include="Antario\Utils\DrawManager.h" />
-    <ClInclude Include="Antario\EventListener.h" />
-    <ClInclude Include="Antario\Utils\GlobalVars.h" />
-    <ClInclude Include="Antario\Utils\Interfaces.h" />
-    <ClInclude Include="Antario\SDK\Recv.h" />
-    <ClInclude Include="Antario\SDK\Vector.h" />
-    <ClInclude Include="Antario\SDK\VMatrix.h" />
-    <ClInclude Include="Antario\Utils\NetvarManager.h" />
-    <ClInclude Include="Antario\Utils\SPoint.h" />
-    <ClInclude Include="Antario\Utils\SRect.h" />
-    <ClInclude Include="Antario\Utils\Utils.h" />
-    <ClInclude Include="Antario\Features\ESP.h" />
+    <ClInclude Include="csgo-hacks\c-sdk\CGlobalVarsBase.h" />
+    <ClInclude Include="csgo-hacks\c-sdk\CHandle.h" />
+    <ClInclude Include="csgo-hacks\c-sdk\CEntity.h" />
+    <ClInclude Include="csgo-hacks\c-sdk\CInput.h" />
+    <ClInclude Include="csgo-hacks\c-sdk\ClientClass.h" />
+    <ClInclude Include="csgo-hacks\c-utils\Color.h" />
+    <ClInclude Include="csgo-hacks\c-sdk\CPrediction.h" />
+    <ClInclude Include="csgo-hacks\c-sdk\Definitions.h" />
+    <ClInclude Include="csgo-hacks\c-sdk\IBaseClientDll.h" />
+    <ClInclude Include="csgo-hacks\c-sdk\IClientEntity.h" />
+    <ClInclude Include="csgo-hacks\c-sdk\IClientEntityList.h" />
+    <ClInclude Include="csgo-hacks\c-sdk\IClientMode.h" />
+    <ClInclude Include="csgo-hacks\c-sdk\IClientNetworkable.h" />
+    <ClInclude Include="csgo-hacks\c-sdk\IClientRenderable.h" />
+    <ClInclude Include="csgo-hacks\c-sdk\IClientThinkable.h" />
+    <ClInclude Include="csgo-hacks\c-sdk\IClientUnknown.h" />
+    <ClInclude Include="csgo-hacks\c-sdk\IGameEvent.h" />
+    <ClInclude Include="csgo-hacks\c-sdk\IVEngineClient.h" />
+    <ClInclude Include="csgo-hacks\c-sdk\KeyValues.h" />
+    <ClInclude Include="csgo-hacks\c-sdk\PlayerInfo.h" />
+    <ClInclude Include="csgo-hacks\Settings.h" />
+    <ClInclude Include="csgo-hacks\c-utils\D3DFont.h" />
+    <ClInclude Include="csgo-hacks\c-utils\DrawManager.h" />
+    <ClInclude Include="csgo-hacks\EventListener.h" />
+    <ClInclude Include="csgo-hacks\c-utils\GlobalVars.h" />
+    <ClInclude Include="csgo-hacks\c-utils\Interfaces.h" />
+    <ClInclude Include="csgo-hacks\c-sdk\Recv.h" />
+    <ClInclude Include="csgo-hacks\c-sdk\Vector.h" />
+    <ClInclude Include="csgo-hacks\c-sdk\VMatrix.h" />
+    <ClInclude Include="csgo-hacks\c-utils\NetvarManager.h" />
+    <ClInclude Include="csgo-hacks\c-utils\SPoint.h" />
+    <ClInclude Include="csgo-hacks\c-utils\SRect.h" />
+    <ClInclude Include="csgo-hacks\c-utils\Utils.h" />
+    <ClInclude Include="csgo-hacks\hacks\ESP.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
