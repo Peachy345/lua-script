@@ -93,24 +93,31 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="csgo-hacks\hacks\EnginePrediction.cpp" />
-    <ClCompile Include="csgo-hacks\cui\GUI.cpp" />
+    <ClCompile Include="csgo-hacks\c-menu\source-files\framework-draw.cpp" />
+    <ClCompile Include="csgo-hacks\c-menu\source-files\framework-input.cpp" />
+    <ClCompile Include="csgo-hacks\c-menu\source-files\menu.cpp" />
+    <ClCompile Include="csgo-hacks\hacks\source-files\anti-aim.cpp" />
+    <ClCompile Include="csgo-hacks\hacks\source-files\EnginePrediction.cpp" />
+    <ClCompile Include="csgo-hacks\hacks\source-files\movement.cpp" />
     <ClCompile Include="csgo-hacks\Hooks.cpp" />
-    <ClCompile Include="csgo-hacks\DLLMain.cpp" />
-    <ClCompile Include="csgo-hacks\Menu.cpp" />
+    <ClCompile Include="csgo-hacks\dllmain.cpp" />
     <ClCompile Include="csgo-hacks\Settings.cpp" />
     <ClCompile Include="csgo-hacks\c-utils\D3DFont.cpp" />
     <ClCompile Include="csgo-hacks\c-utils\DrawManager.cpp" />
     <ClCompile Include="csgo-hacks\c-utils\GlobalVars.cpp" />
     <ClCompile Include="csgo-hacks\c-utils\Interfaces.cpp" />
     <ClCompile Include="csgo-hacks\c-utils\NetvarManager.cpp" />
-    <ClCompile Include="csgo-hacks\hacks\ESP.cpp" />
+    <ClCompile Include="csgo-hacks\hacks\source-files\ESP.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="csgo-hacks\hacks\EnginePrediction.h" />
-    <ClInclude Include="csgo-hacks\hacks\Features.h" />
-    <ClInclude Include="csgo-hacks\hacks\Misc.h" />
-    <ClInclude Include="csgo-hacks\cui\GUI.h" />
+    <ClInclude Include="csgo-hacks\c-menu\header-files\framework-draw.h" />
+    <ClInclude Include="csgo-hacks\c-menu\header-files\framework-input.h" />
+    <ClInclude Include="csgo-hacks\c-menu\header-files\menu.h" />
+    <ClInclude Include="csgo-hacks\hacks\header-files\anti-aim.h" />
+    <ClInclude Include="csgo-hacks\hacks\header-files\EnginePrediction.h" />
+    <ClInclude Include="csgo-hacks\hacks\header-files\Features.h" />
+    <ClInclude Include="csgo-hacks\hacks\header-files\Misc.h" />
+    <ClInclude Include="csgo-hacks\hacks\header-files\movement.h" />
     <ClInclude Include="csgo-hacks\Hooks.h" />
     <ClInclude Include="Antario\Menu.h" />
     <ClInclude Include="csgo-hacks\c-sdk\CGlobalVarsBase.h" />
@@ -146,7 +153,7 @@
     <ClInclude Include="csgo-hacks\c-utils\SPoint.h" />
     <ClInclude Include="csgo-hacks\c-utils\SRect.h" />
     <ClInclude Include="csgo-hacks\c-utils\Utils.h" />
-    <ClInclude Include="csgo-hacks\hacks\ESP.h" />
+    <ClInclude Include="csgo-hacks\hacks\header-files\ESP.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

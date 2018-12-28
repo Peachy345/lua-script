@@ -15,27 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="csgo-hacks\DLLMain.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="csgo-hacks\Hooks.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="csgo-hacks\Menu.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="csgo-hacks\Settings.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="csgo-hacks\cui\GUI.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="csgo-hacks\hacks\EnginePrediction.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="csgo-hacks\hacks\ESP.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="csgo-hacks\c-utils\D3DFont.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -51,33 +30,39 @@
     <ClCompile Include="csgo-hacks\c-utils\NetvarManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="csgo-hacks\hacks\source-files\EnginePrediction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgo-hacks\hacks\source-files\ESP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgo-hacks\Hooks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgo-hacks\Settings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgo-hacks\dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgo-hacks\c-menu\source-files\framework-input.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgo-hacks\c-menu\source-files\framework-draw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgo-hacks\c-menu\source-files\menu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgo-hacks\hacks\source-files\anti-aim.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgo-hacks\hacks\source-files\movement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Antario\Menu.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="csgo-hacks\EventListener.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="csgo-hacks\Hooks.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="csgo-hacks\Settings.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="csgo-hacks\cui\GUI.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="csgo-hacks\hacks\EnginePrediction.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="csgo-hacks\hacks\ESP.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="csgo-hacks\hacks\Features.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="csgo-hacks\hacks\Misc.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="csgo-hacks\c-sdk\CEntity.h">
@@ -171,6 +156,42 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="csgo-hacks\c-utils\Utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgo-hacks\hacks\header-files\EnginePrediction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgo-hacks\hacks\header-files\ESP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgo-hacks\hacks\header-files\Features.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgo-hacks\hacks\header-files\Misc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgo-hacks\EventListener.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgo-hacks\Settings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgo-hacks\Hooks.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgo-hacks\c-menu\header-files\framework-input.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgo-hacks\c-menu\header-files\framework-draw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgo-hacks\c-menu\header-files\menu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgo-hacks\hacks\header-files\anti-aim.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgo-hacks\hacks\header-files\movement.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

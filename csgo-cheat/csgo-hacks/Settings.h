@@ -1,17 +1,12 @@
 #pragma once
-#include "cui\GUI.h"
+
 #include <filesystem>
 
-using namespace ui;
 namespace fs = std::experimental::filesystem;
 
 class Settings
 {
 public:
-    void Initialize(MenuMain* pMenuObj);
-
-    void SaveSettings(const std::string& strFileName, MenuMain* pMenuObj);
-    void LoadSettings(const std::string& strFileName, MenuMain* pMenuObj);
 
 private:
     void UpdateDirectoryContent(const fs::path& fsPath);

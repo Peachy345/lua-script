@@ -1,12 +1,12 @@
 ﻿#include <thread>
 #include "Hooks.h"
 #include "c-utils\Utils.h"
-#include "hacks\Features.h"
-
+#include "hacks\header-files\Features.h"
+#include "c-menu\header-files\menu.h"
 Misc     g_Misc;
 Hooks    g_Hooks;
 Settings g_Settings;
-
+c_menu menu;
 
 void Hooks::Init()
 {
@@ -138,7 +138,6 @@ HRESULT __stdcall Hooks::Present(IDirect3DDevice9* pDevice, const RECT* pSourceR
         {
             Utils::Log("Initializing Draw manager");
             g_Render.InitDeviceObjects(pDevice);
-            g_Hooks.nMenu.Initialize();
             g_Hooks.bInitializedDrawManager = true;
             Utils::Log("Draw manager initialized");
         }
@@ -151,8 +150,7 @@ HRESULT __stdcall Hooks::Present(IDirect3DDevice9* pDevice, const RECT* pSourceR
 
             if (g_Settings.bMenuOpened)
             {
-                g_Hooks.nMenu.Render();             // Render our menu
-                g_Hooks.nMenu.mouseCursor->Render();// Render mouse cursor in the end so its not overlapped
+				menu.draw();
             }
 
             // Put your draw calls here
@@ -198,7 +196,6 @@ LRESULT Hooks::WndProc(HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
         // our wndproc capture fn
         if (g_Settings.bMenuOpened)
         {
-            g_Hooks.nMenu.MsgProc(uMsg, wParam, lParam);
             return true;
         }
     }
